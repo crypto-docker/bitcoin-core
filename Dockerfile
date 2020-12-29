@@ -21,6 +21,8 @@ COPY "docker-entrypoint.sh" /entrypoint.sh
 COPY "config.conf" "${COIN_CONF_FILE}"
 COPY "scripts/" "${COIN_SCRIPTS}/"
 
+RUN chown -R coinuser:coingroup "${COIN_ROOT_DIR}/"
+
 EXPOSE 8332 18332 18443 8333 18333 18444
 
 VOLUME ["${COIN_ROOT_DIR}"]
