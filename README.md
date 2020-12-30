@@ -44,3 +44,6 @@ services:
 volumes:
   bitcoincore:
 ```
+
+### How to change the config file
+To make changes, you must link the root directory to any folder. You can edit the config.conf file under the root directory.
