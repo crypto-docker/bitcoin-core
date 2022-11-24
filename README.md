@@ -35,7 +35,7 @@ repository.
 ```yaml
 version: "3"
 services:
-  mariadb:
+  bitcoind:
     hostname: bitcoin-core
     container_name: "bitcoin-core"
     image: cryptodockerhub/bitcoin-core:latest
