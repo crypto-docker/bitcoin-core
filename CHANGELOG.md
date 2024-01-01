@@ -1,5 +1,9 @@
 # Changelog
 
+## [26.0](https://github.com/crypto-docker/bitcoin-core/tree/26.0) (2024-01-01)
+
+[Full Changelog](https://github.com/crypto-docker/bitcoin-core/compare/23.0...26.0)
+
 ## [23.0](https://github.com/crypto-docker/bitcoin-core/tree/23.0) (2022-11-24)
 
 [Full Changelog](https://github.com/crypto-docker/bitcoin-core/compare/0.20.1...23.0)
